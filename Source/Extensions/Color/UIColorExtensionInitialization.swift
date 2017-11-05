@@ -12,7 +12,12 @@ import UIKit
 public extension UIColor {
     
     internal convenience init(rgbaInformation: RGBAInformation) {
-        self.init(red: rgbaInformation.red.cgFloatValue, green: rgbaInformation.green.cgFloatValue, blue: rgbaInformation.blue.cgFloatValue, alpha: rgbaInformation.alpha.cgFloatValue)
+        self.init(
+            red: rgbaInformation.red.cgFloatValue,
+            green: rgbaInformation.green.cgFloatValue,
+            blue: rgbaInformation.blue.cgFloatValue,
+            alpha: rgbaInformation.alpha.cgFloatValue
+        )
     }
     
     public convenience init?(hexString: String) {
