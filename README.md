@@ -100,7 +100,7 @@ let flickrPinkWithHalfTransparency = UIColor.Brands.Flickr.pink.colorWithAlphaCo
 To see full collection of available brands, just type in Xcode `UIColor.Brands.` and you will see output like this:
 
 <p align="center" >
-<img src="https://github.com/igormatyushkin014/Pixels/blob/master/Images/available-brands.png" alt="Available Brands" title="Available Brands">
+<img src="https://github.com/igormatyushkin014/Pixels/blob/master/Images/available_brands.png" alt="Available Brands" title="Available Brands">
 </p>
 
 Another way to check available brands is to take a look at the [source code](Source/Extensions/Color/UIColorExtensionBrands.swift).
