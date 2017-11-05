@@ -70,13 +70,13 @@ internal class RGBAStringParser {
             break
         }
         
-        // Obtain result RGBA information
+        // Obtain result RGBA color
         
-        let resultRGBAInformation = RGBAColor(red: rgbaComponents[0], green: rgbaComponents[1], blue: rgbaComponents[2], alpha: rgbaComponents[3])
+        let resultRGBAColor = RGBAColor(red: rgbaComponents[0], green: rgbaComponents[1], blue: rgbaComponents[2], alpha: rgbaComponents[3])
         
         // Return result
         
-        return resultRGBAInformation
+        return resultRGBAColor
     }
     
     // MARK: Private class methods
