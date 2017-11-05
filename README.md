@@ -71,11 +71,32 @@ If hex string has wrong format, `nil` will be returned instead of color.
 
 ### Operations with Color
 
-With `Pixels` you can, for example, invert any color:
+With `Pixels` you can invert any color:
 
 ```swift
-let invertedColor = UIColor.white.pxls.invertedColor(invertAlpha: false) // returns .black color
+let invertedColor = UIColor.white.pxls
+    .invertedColor(invertAlpha: false)
+    .color // returns black color
 ```
+
+Also, it's possible to mix two colors:
+
+```swift
+let mixedColor = UIColor.blue.pxls
+    .mix(with: UIColor.orange)
+    .color // returns purple color
+```
+
+All operators support chains, so you can use them like in example below:
+
+```swift
+let resultColor = UIColor.yellow.pxls
+    .invertedColor(invertAlpha: false)
+    .mix(with: .orange)
+    .color
+```
+
+Every chain begins with `.pxls` and finishes by mentioning `.color` reference that gives result color.
 
 ### Brand Colors
 
