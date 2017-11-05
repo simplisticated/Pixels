@@ -1,5 +1,5 @@
 <p align="center" >
-<img src="https://github.com/igormatyushkin014/Pixels/blob/master/Images/logo_1024_1024.png" alt="Pixels" title="Pixels">
+<img src="https://github.com/igormatyushkin014/Pixels/blob/master/Images/logo_1024_1024.png" alt="Pixels" title="Pixels" width="300px" height="300px">
 </p>
 
 <p align="center">
