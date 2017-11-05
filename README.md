@@ -41,7 +41,7 @@ let grayColor = UIColor(
     green: 51.0 / 255.0,
     blue: 51.0,
     alpha: 255.0
-) // RGB {51, 51, 51}
+)
 ```
 
 you can simply write this
