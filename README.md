@@ -92,16 +92,17 @@ let mixedColor = UIColor.blue.pxls
     .color // returns purple color
 ```
 
-All operators support chains, so you can use them like in example below:
+All operations support chains, so you can use them like in example below:
 
 ```swift
 let resultColor = UIColor.yellow.pxls
-    .invertedColor(invertAlpha: false)
-    .mix(with: .orange)
-    .color
+    .invertedColor(invertAlpha: false) // invert yellow color
+    .mix(with: .orange)                // mix inverted color with orange
+    .color                             // get `UIColor` instance
+    .withAlphaComponent(0.5)           // make color 50% transparent
 ```
 
-Every chain begins with `.pxls` and finishes by mentioning `.color` reference that gives result color.
+Every chain begins with `.pxls` and finishes by mentioning `.color` reference that generates final `UIColor` instance.
 
 ### Brand Colors
 
