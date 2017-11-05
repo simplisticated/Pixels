@@ -12,29 +12,13 @@ internal class RGBAComponent {
     
     // MARK: Class variables & properties
     
-    public class var minimumIntegerValue: Int {
-        get {
-            return 0
-        }
-    }
+    public static let minimumIntegerValue: Int = 0
     
-    public class var maximumIntegerValue: Int {
-        get {
-            return 255
-        }
-    }
+    public static let maximumIntegerValue: Int = 255
     
-    public class var minimumCGFloatValue: CGFloat {
-        get {
-            return 0.0
-        }
-    }
+    public static let minimumCGFloatValue: CGFloat = 0.0
     
-    public class var maximumCGFloatValue: CGFloat {
-        get {
-            return 1.0
-        }
-    }
+    public static let maximumCGFloatValue: CGFloat = 1.0
     
     // MARK: Public class methods
     
@@ -56,7 +40,6 @@ internal class RGBAComponent {
         assert(integerValue >= RGBAComponent.minimumIntegerValue, "Integer value should be more than or equal to minimum integer value")
         assert(integerValue <= RGBAComponent.maximumIntegerValue, "Integer value should be less than or equal to maximum integer value")
         
-
         // Initialize integer value
         
         self.integerValue = integerValue
