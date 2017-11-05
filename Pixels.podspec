@@ -29,7 +29,7 @@ Simplifying work with colors in Swift.
                    DESC
 
   s.homepage     = "https://github.com/igormatyushkin014/Pixels"
-  s.screenshots  = "https://github.com/igormatyushkin014/Pixels/raw/master/Images/logo_1024_1024.png"
+  s.screenshots  = "https://github.com/igormatyushkin014/Pixels/raw/master/Images/logo_2048_2048.png"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
