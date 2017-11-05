@@ -15,7 +15,6 @@
 		690D74D21FAF3B2100FF9388 /* RGBAColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74CB1FAF3B2000FF9388 /* RGBAColor.swift */; };
 		690D74D31FAF3B2100FF9388 /* RGBAComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74CD1FAF3B2000FF9388 /* RGBAComponent.swift */; };
 		690D74D51FAF3B2100FF9388 /* RGBAStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74D01FAF3B2000FF9388 /* RGBAStringParser.swift */; };
-		690D74DA1FAF5AEE00FF9388 /* RGBAComponentExtensionOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74D91FAF5AEE00FF9388 /* RGBAComponentExtensionOperations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		690D74CB1FAF3B2000FF9388 /* RGBAColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAColor.swift; sourceTree = "<group>"; };
 		690D74CD1FAF3B2000FF9388 /* RGBAComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAComponent.swift; sourceTree = "<group>"; };
 		690D74D01FAF3B2000FF9388 /* RGBAStringParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAStringParser.swift; sourceTree = "<group>"; };
-		690D74D91FAF5AEE00FF9388 /* RGBAComponentExtensionOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAComponentExtensionOperations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,7 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				690D74CD1FAF3B2000FF9388 /* RGBAComponent.swift */,
-				690D74D91FAF5AEE00FF9388 /* RGBAComponentExtensionOperations.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -237,7 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				690D74D51FAF3B2100FF9388 /* RGBAStringParser.swift in Sources */,
-				690D74DA1FAF5AEE00FF9388 /* RGBAComponentExtensionOperations.swift in Sources */,
 				690D74D21FAF3B2100FF9388 /* RGBAColor.swift in Sources */,
 				690D74A31FAF1E6000FF9388 /* UIColorExtensionManager.swift in Sources */,
 				690D748B1FAF1B7A00FF9388 /* UIColorExtensionInitialization.swift in Sources */,
