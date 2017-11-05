@@ -36,25 +36,30 @@ The common expression for color in RGB system is `#123456`. Another variety of t
 `Pixels` has a solution for the problem described above, so instead of this
 
 ```swift
-let grayColor = UIColor(red: 51.0 / 255.0, green: 51.0 / 255.0, blue: 51.0, alpha: 255.0)
+let grayColor = UIColor(
+    red: 51.0 / 255.0,
+    green: 51.0 / 255.0,
+    blue: 51.0,
+    alpha: 255.0
+) // RGB {51, 51, 51}
 ```
 
 you can simply write this
 
 ```swift
-let grayColor = UIColor(hexString: "#333333")
+let grayColor = UIColor(hexString: "#333333") // RGB {51, 51, 51}
 ```
 
 or this
 
 ```swift
-let grayColor = UIColor(hexString: "#333")
+let grayColor = UIColor(hexString: "#333") // RGB {51, 51, 51}
 ```
 
 or even this
 
 ```swift
-let grayColor = UIColor(hexString: "333")
+let grayColor = UIColor(hexString: "333") // RGB {51, 51, 51}
 ```
 
 As you can see in last example, sharp symbol is optional. Hex string will be parsed correctly with or without sharp prefix.
@@ -62,12 +67,12 @@ As you can see in last example, sharp symbol is optional. Hex string will be par
 `Pixels` supports both RGB and RGBA color systems, so you can also add alpha component to expression:
 
 ```swift
-let grayColorWithSmallTransparency = UIColor(hexString: "#333333dd") // {51, 51, 51, 221}
-let halfTransparentGrayColor = UIColor(hexString: "#3338") // {51, 51, 51, 136}
-let almostTransparentGrayColor = UIColor(hexString: "#33333310") // {51, 51, 51, 16}
+let grayColorWithSmallTransparency = UIColor(hexString: "#333333dd") // RGBA {51, 51, 51, 221}
+let halfTransparentGrayColor = UIColor(hexString: "#3338") // RGBA {51, 51, 51, 136}
+let almostTransparentGrayColor = UIColor(hexString: "#33333310") // RGBA {51, 51, 51, 16}
 ```
 
-If hex string has wrong format, `nil` will be returned instead of color.
+If hex string has wrong format, `nil` will be returned instead of `UIColor` instance.
 
 ### Operations with Color
 
@@ -128,4 +133,4 @@ Another way to check available brands is to take a look at the [source code](Sou
 
 ## License
 
-`RainbowColors` is available under the MIT license. See the [LICENSE](./LICENSE) file for more info.
+`Pixels` is available under the MIT license. See the [LICENSE](./LICENSE) file for more info.
