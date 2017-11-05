@@ -16,4 +16,10 @@ public extension UIColor {
         }
     }
     
+    public var π: ColorManager {
+        get {
+            return ColorManager(color: self)
+        }
+    }
+    
 }
