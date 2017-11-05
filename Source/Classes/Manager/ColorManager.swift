@@ -19,9 +19,9 @@ public class ColorManager {
     // MARK: Initializers
     
     public init(color: UIColor) {
-        // Initialize associated color
+        // Initialize color
         
-        self.associatedColor = color
+        self.color = color
     }
     
     // MARK: Deinitializer
@@ -31,7 +31,7 @@ public class ColorManager {
     
     // MARK: Object variables & properties
     
-    fileprivate var associatedColor: UIColor
+    public var color: UIColor
     
     internal var rgba: RGBAColor {
         get {
@@ -40,7 +40,7 @@ public class ColorManager {
             var blue: CGFloat = 0.0
             var alpha: CGFloat = 0.0
             
-            self.associatedColor.getRed(&red, green: &green, blue: &blue, alpha: &alpha)
+            self.color.getRed(&red, green: &green, blue: &blue, alpha: &alpha)
             
             return RGBAColor(
                 red: RGBAComponent(cgFloatValue: red),
@@ -53,15 +53,41 @@ public class ColorManager {
     
     // MARK: Public object methods
     
-    public func invertedColor(invertAlpha: Bool) -> UIColor {
+    public func invertedColor(invertAlpha: Bool) -> ColorManager {
         let sourceRGBAColor = self.rgba
         
-        return UIColor(
-            red: 1.0 - sourceRGBAColor.red.cgFloatValue,
-            green: 1.0 - sourceRGBAColor.green.cgFloatValue,
-            blue: 1.0 - sourceRGBAColor.blue.cgFloatValue,
-            alpha: invertAlpha ? 1.0 - sourceRGBAColor.alpha.cgFloatValue : sourceRGBAColor.alpha.cgFloatValue
+        let invertedRGBAColor = RGBAColor(
+            red: RGBAComponent(cgFloatValue: 1.0 - sourceRGBAColor.red.cgFloatValue),
+            green: RGBAComponent(cgFloatValue: 1.0 - sourceRGBAColor.green.cgFloatValue),
+            blue: RGBAComponent(cgFloatValue: 1.0 - sourceRGBAColor.blue.cgFloatValue),
+            alpha: RGBAComponent(cgFloatValue: invertAlpha ? 1.0 - sourceRGBAColor.red.cgFloatValue : sourceRGBAColor.alpha.cgFloatValue)
         )
+        
+        let invertedColor = UIColor(rgbaColor: invertedRGBAColor)
+        return ColorManager(color: invertedColor)
+    }
+    
+    public func mix(with color: UIColor) -> ColorManager {
+        let sourceRGBAColor = self.rgba
+        let additionalRGBAColor = color.pxls.rgba
+        
+        let mixedRGBAColor = RGBAColor(
+            red: RGBAComponent(
+                cgFloatValue: (sourceRGBAColor.red.cgFloatValue + additionalRGBAColor.red.cgFloatValue) / 2.0
+            ),
+            green: RGBAComponent(
+                cgFloatValue: (sourceRGBAColor.green.cgFloatValue + additionalRGBAColor.green.cgFloatValue) / 2.0
+            ),
+            blue: RGBAComponent(
+                cgFloatValue: (sourceRGBAColor.blue.cgFloatValue + additionalRGBAColor.blue.cgFloatValue) / 2.0
+            ),
+            alpha: RGBAComponent(
+                cgFloatValue: (sourceRGBAColor.alpha.cgFloatValue + additionalRGBAColor.alpha.cgFloatValue) / 2.0
+            )
+        )
+        
+        let mixedColor = UIColor(rgbaColor: mixedRGBAColor)
+        return ColorManager(color: mixedColor)
     }
     
     // MARK: Private object methods
