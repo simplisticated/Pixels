@@ -11,11 +11,11 @@
 		690D748A1FAF1B7A00FF9388 /* UIColorExtensionBrands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74841FAF1B7A00FF9388 /* UIColorExtensionBrands.swift */; };
 		690D748B1FAF1B7A00FF9388 /* UIColorExtensionInitialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74851FAF1B7A00FF9388 /* UIColorExtensionInitialization.swift */; };
 		690D74A31FAF1E6000FF9388 /* UIColorExtensionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74A21FAF1E6000FF9388 /* UIColorExtensionManager.swift */; };
-		690D74B11FAF390000FF9388 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74A81FAF390000FF9388 /* ColorManager.swift */; };
-		690D74B21FAF390000FF9388 /* RGBAComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74AB1FAF390000FF9388 /* RGBAComponent.swift */; };
-		690D74B31FAF390000FF9388 /* RGBAComponentExtensionOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74AC1FAF390000FF9388 /* RGBAComponentExtensionOperations.swift */; };
-		690D74B41FAF390000FF9388 /* RGBAInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74AE1FAF390000FF9388 /* RGBAInformation.swift */; };
-		690D74B51FAF390000FF9388 /* RGBAStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74B01FAF390000FF9388 /* RGBAStringParser.swift */; };
+		690D74D11FAF3B2100FF9388 /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74C81FAF3B2000FF9388 /* ColorManager.swift */; };
+		690D74D21FAF3B2100FF9388 /* RGBAColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74CB1FAF3B2000FF9388 /* RGBAColor.swift */; };
+		690D74D31FAF3B2100FF9388 /* RGBAComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74CD1FAF3B2000FF9388 /* RGBAComponent.swift */; };
+		690D74D41FAF3B2100FF9388 /* RGBAComponentExtensionOperations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74CE1FAF3B2000FF9388 /* RGBAComponentExtensionOperations.swift */; };
+		690D74D51FAF3B2100FF9388 /* RGBAStringParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D74D01FAF3B2000FF9388 /* RGBAStringParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +25,11 @@
 		690D74841FAF1B7A00FF9388 /* UIColorExtensionBrands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensionBrands.swift; sourceTree = "<group>"; };
 		690D74851FAF1B7A00FF9388 /* UIColorExtensionInitialization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtensionInitialization.swift; sourceTree = "<group>"; };
 		690D74A21FAF1E6000FF9388 /* UIColorExtensionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtensionManager.swift; sourceTree = "<group>"; };
-		690D74A81FAF390000FF9388 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
-		690D74AB1FAF390000FF9388 /* RGBAComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAComponent.swift; sourceTree = "<group>"; };
-		690D74AC1FAF390000FF9388 /* RGBAComponentExtensionOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAComponentExtensionOperations.swift; sourceTree = "<group>"; };
-		690D74AE1FAF390000FF9388 /* RGBAInformation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAInformation.swift; sourceTree = "<group>"; };
-		690D74B01FAF390000FF9388 /* RGBAStringParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAStringParser.swift; sourceTree = "<group>"; };
+		690D74C81FAF3B2000FF9388 /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		690D74CB1FAF3B2000FF9388 /* RGBAColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAColor.swift; sourceTree = "<group>"; };
+		690D74CD1FAF3B2000FF9388 /* RGBAComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAComponent.swift; sourceTree = "<group>"; };
+		690D74CE1FAF3B2000FF9388 /* RGBAComponentExtensionOperations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAComponentExtensionOperations.swift; sourceTree = "<group>"; };
+		690D74D01FAF3B2000FF9388 /* RGBAStringParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAStringParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +72,7 @@
 		690D747D1FAF1B7A00FF9388 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				690D74A61FAF390000FF9388 /* Classes */,
+				690D74C61FAF3B2000FF9388 /* Classes */,
 				690D74821FAF1B7A00FF9388 /* Extensions */,
 			);
 			name = Source;
@@ -97,54 +97,54 @@
 			path = Color;
 			sourceTree = "<group>";
 		};
-		690D74A61FAF390000FF9388 /* Classes */ = {
+		690D74C61FAF3B2000FF9388 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				690D74A71FAF390000FF9388 /* ColorManager */,
-				690D74A91FAF390000FF9388 /* RGBA */,
+				690D74C71FAF3B2000FF9388 /* Manager */,
+				690D74C91FAF3B2000FF9388 /* RGBA */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		690D74A71FAF390000FF9388 /* ColorManager */ = {
+		690D74C71FAF3B2000FF9388 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				690D74A81FAF390000FF9388 /* ColorManager.swift */,
+				690D74C81FAF3B2000FF9388 /* ColorManager.swift */,
 			);
-			path = ColorManager;
+			path = Manager;
 			sourceTree = "<group>";
 		};
-		690D74A91FAF390000FF9388 /* RGBA */ = {
+		690D74C91FAF3B2000FF9388 /* RGBA */ = {
 			isa = PBXGroup;
 			children = (
-				690D74AA1FAF390000FF9388 /* Component */,
-				690D74AD1FAF390000FF9388 /* Information */,
-				690D74AF1FAF390000FF9388 /* StringParser */,
+				690D74CC1FAF3B2000FF9388 /* Component */,
+				690D74CA1FAF3B2000FF9388 /* Color */,
+				690D74CF1FAF3B2000FF9388 /* StringParser */,
 			);
 			path = RGBA;
 			sourceTree = "<group>";
 		};
-		690D74AA1FAF390000FF9388 /* Component */ = {
+		690D74CA1FAF3B2000FF9388 /* Color */ = {
 			isa = PBXGroup;
 			children = (
-				690D74AB1FAF390000FF9388 /* RGBAComponent.swift */,
-				690D74AC1FAF390000FF9388 /* RGBAComponentExtensionOperations.swift */,
+				690D74CB1FAF3B2000FF9388 /* RGBAColor.swift */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		690D74CC1FAF3B2000FF9388 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				690D74CD1FAF3B2000FF9388 /* RGBAComponent.swift */,
+				690D74CE1FAF3B2000FF9388 /* RGBAComponentExtensionOperations.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
 		};
-		690D74AD1FAF390000FF9388 /* Information */ = {
+		690D74CF1FAF3B2000FF9388 /* StringParser */ = {
 			isa = PBXGroup;
 			children = (
-				690D74AE1FAF390000FF9388 /* RGBAInformation.swift */,
-			);
-			path = Information;
-			sourceTree = "<group>";
-		};
-		690D74AF1FAF390000FF9388 /* StringParser */ = {
-			isa = PBXGroup;
-			children = (
-				690D74B01FAF390000FF9388 /* RGBAStringParser.swift */,
+				690D74D01FAF3B2000FF9388 /* RGBAStringParser.swift */,
 			);
 			path = StringParser;
 			sourceTree = "<group>";
@@ -228,14 +228,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690D74D41FAF3B2100FF9388 /* RGBAComponentExtensionOperations.swift in Sources */,
+				690D74D51FAF3B2100FF9388 /* RGBAStringParser.swift in Sources */,
+				690D74D21FAF3B2100FF9388 /* RGBAColor.swift in Sources */,
 				690D74A31FAF1E6000FF9388 /* UIColorExtensionManager.swift in Sources */,
-				690D74B51FAF390000FF9388 /* RGBAStringParser.swift in Sources */,
 				690D748B1FAF1B7A00FF9388 /* UIColorExtensionInitialization.swift in Sources */,
-				690D74B41FAF390000FF9388 /* RGBAInformation.swift in Sources */,
+				690D74D31FAF3B2100FF9388 /* RGBAComponent.swift in Sources */,
 				690D748A1FAF1B7A00FF9388 /* UIColorExtensionBrands.swift in Sources */,
-				690D74B31FAF390000FF9388 /* RGBAComponentExtensionOperations.swift in Sources */,
-				690D74B21FAF390000FF9388 /* RGBAComponent.swift in Sources */,
-				690D74B11FAF390000FF9388 /* ColorManager.swift in Sources */,
+				690D74D11FAF3B2100FF9388 /* ColorManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

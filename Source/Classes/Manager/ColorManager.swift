@@ -33,7 +33,7 @@ public class ColorManager {
     
     fileprivate var associatedColor: UIColor
     
-    internal var rgba: RGBAInformation {
+    internal var rgba: RGBAColor {
         get {
             var red: CGFloat = 0.0
             var green: CGFloat = 0.0
@@ -42,7 +42,7 @@ public class ColorManager {
             
             self.associatedColor.getRed(&red, green: &green, blue: &blue, alpha: &alpha)
             
-            return RGBAInformation(
+            return RGBAColor(
                 red: RGBAComponent(cgFloatValue: red),
                 green: RGBAComponent(cgFloatValue: green),
                 blue: RGBAComponent(cgFloatValue: blue),
@@ -54,13 +54,13 @@ public class ColorManager {
     // MARK: Public object methods
     
     public func invertedColor(invertAlpha: Bool) -> UIColor {
-        let currentRGBAInformation = self.rgba
+        let sourceRGBAColor = self.rgba
         
         return UIColor(
-            red: 1.0 - currentRGBAInformation.red.cgFloatValue,
-            green: 1.0 - currentRGBAInformation.green.cgFloatValue,
-            blue: 1.0 - currentRGBAInformation.blue.cgFloatValue,
-            alpha: invertAlpha ? 1.0 - currentRGBAInformation.alpha.cgFloatValue : currentRGBAInformation.alpha.cgFloatValue
+            red: 1.0 - sourceRGBAColor.red.cgFloatValue,
+            green: 1.0 - sourceRGBAColor.green.cgFloatValue,
+            blue: 1.0 - sourceRGBAColor.blue.cgFloatValue,
+            alpha: invertAlpha ? 1.0 - sourceRGBAColor.alpha.cgFloatValue : sourceRGBAColor.alpha.cgFloatValue
         )
     }
     

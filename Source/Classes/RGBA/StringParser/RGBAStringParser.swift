@@ -14,7 +14,7 @@ internal class RGBAStringParser {
     
     // MARK: Public class methods
     
-    public class func parse(hexString: String) -> RGBAInformation? {
+    public class func parse(hexString: String) -> RGBAColor? {
         // Check that hex string is not empty
         
         guard !hexString.isEmpty else {
@@ -72,7 +72,7 @@ internal class RGBAStringParser {
         
         // Obtain result RGBA information
         
-        let resultRGBAInformation = RGBAInformation(red: rgbaComponents[0], green: rgbaComponents[1], blue: rgbaComponents[2], alpha: rgbaComponents[3])
+        let resultRGBAInformation = RGBAColor(red: rgbaComponents[0], green: rgbaComponents[1], blue: rgbaComponents[2], alpha: rgbaComponents[3])
         
         // Return result
         

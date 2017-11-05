@@ -1,5 +1,5 @@
 //
-//  RGBAInformation.swift
+//  RGBAColor.swift
 //  Pixels
 //
 //  Created by Igor Matyushkin on 05.06.16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-internal class RGBAInformation {
+internal class RGBAColor {
     
     // MARK: Class variables & properties
     
