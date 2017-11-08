@@ -4,8 +4,8 @@
 
 <p align="center">
 <a href="https://swift.org"><img src="https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat"></a>
-<a href="https://cocoapods.org"><img src="https://img.shields.io/cocoapods/v/Pixels.svg?maxAge=2592000"></a>
-<a href="https://cocoapods.org"><img src="https://img.shields.io/cocoapods/dt/Pixels.svg?maxAge=2592000"></a>
+<a href="https://cocoapods.org"><img src="https://img.shields.io/cocoapods/v/Pixels.svg"></a>
+<a href="https://cocoapods.org"><img src="https://img.shields.io/cocoapods/dt/Pixels.svg"></a>
 <a href="https://tldrlegal.com/license/mit-license"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat"></a>
 </p>
 
