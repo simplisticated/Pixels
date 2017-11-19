@@ -8,7 +8,7 @@
 
 import UIKit
 
-internal class RGBAComponent {
+public class RGBAComponent {
     
     // MARK: Class variables & properties
     
