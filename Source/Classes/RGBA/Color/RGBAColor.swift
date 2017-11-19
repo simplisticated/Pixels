@@ -8,7 +8,7 @@
 
 import UIKit
 
-internal class RGBAColor {
+public class RGBAColor {
     
     // MARK: Class variables & properties
     
