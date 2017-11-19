@@ -33,7 +33,7 @@ public class ColorManager {
     
     public var color: UIColor
     
-    internal var rgba: RGBAColor {
+    public var rgba: RGBAColor {
         get {
             var red: CGFloat = 0.0
             var green: CGFloat = 0.0
