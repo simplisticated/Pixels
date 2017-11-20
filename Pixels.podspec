@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Pixels"
-  s.version      = "1.2"
+  s.version      = "1.2.1"
   s.summary      = "Colorful programming"
 
   # This description is used to generate tags and improve search results.
@@ -56,7 +56,7 @@ Simplifying work with colors in Swift.
   s.author             = { "Igor Matyushkin" => "igormatyushkin014@gmail.com" }
   #s.author    = "Igor Matyushkin"
   # s.authors            = { "Igor Matyushkin" => "igormatyushkin014@gmail.com" }
-  s.social_media_url   = "https://twitter.com/imatyushkin1"
+  # s.social_media_url   = "https://twitter.com/imatyushkin1"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
