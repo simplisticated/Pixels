@@ -11,7 +11,7 @@ import UIKit
 
 public extension UIColor {
     
-    internal convenience init(rgbaColor: RGBAColor) {
+    public convenience init(rgbaColor: RGBAColor) {
         self.init(
             red: rgbaColor.red.cgFloatValue,
             green: rgbaColor.green.cgFloatValue,
