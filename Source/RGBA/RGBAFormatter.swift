@@ -18,6 +18,9 @@ public class RGBAFormatter {
     
     // MARK: Initializers
     
+    public init() {
+    }
+    
     // MARK: Deinitializer
     
     deinit {
