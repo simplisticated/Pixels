@@ -101,7 +101,7 @@ public class RGBAFormatter {
             color.red.integerValue,
             color.green.integerValue,
             color.blue.integerValue
-            ).replacingOccurrences(of: " ", with: "0")
+        ).replacingOccurrences(of: " ", with: "0")
     }
     
     // MARK: Private object methods
