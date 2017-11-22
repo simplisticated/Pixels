@@ -12,13 +12,14 @@ public extension UIColor {
     
     public var pxls: ColorManager {
         get {
-            return ColorManager(color: self)
+            let rgba = RGBAColor.from(color: self)
+            return ColorManager(rgba: rgba)
         }
     }
     
     public var π: ColorManager {
         get {
-            return ColorManager(color: self)
+            return self.pxls
         }
     }
     

@@ -21,7 +21,7 @@ public extension UIColor {
     }
     
     public convenience init?(hexString: String) {
-        guard let rgbaColor = RGBAStringParser.parse(hexString: hexString) else {
+        guard let rgbaColor = RGBAFormatter().rgbaColor(fromHexString: hexString) else {
             return nil
         }
         
