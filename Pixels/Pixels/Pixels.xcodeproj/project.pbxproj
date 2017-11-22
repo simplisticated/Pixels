@@ -15,7 +15,6 @@
 		695493631FC4EFE10053671F /* RGBAColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6954935D1FC4EFE00053671F /* RGBAColor.swift */; };
 		695493651FC4EFE10053671F /* RGBAComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6954935F1FC4EFE00053671F /* RGBAComponent.swift */; };
 		695493661FC4EFE10053671F /* RGBAFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695493601FC4EFE00053671F /* RGBAFormatter.swift */; };
-		6954936A1FC504B00053671F /* RGBAColorExtensionInitialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 695493691FC504B00053671F /* RGBAColorExtensionInitialization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		6954935D1FC4EFE00053671F /* RGBAColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAColor.swift; sourceTree = "<group>"; };
 		6954935F1FC4EFE00053671F /* RGBAComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAComponent.swift; sourceTree = "<group>"; };
 		695493601FC4EFE00053671F /* RGBAFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBAFormatter.swift; sourceTree = "<group>"; };
-		695493691FC504B00053671F /* RGBAColorExtensionInitialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBAColorExtensionInitialization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				6954935D1FC4EFE00053671F /* RGBAColor.swift */,
-				695493691FC504B00053671F /* RGBAColorExtensionInitialization.swift */,
 				6954935F1FC4EFE00053671F /* RGBAComponent.swift */,
 				695493601FC4EFE00053671F /* RGBAFormatter.swift */,
 			);
@@ -197,7 +194,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				695493621FC4EFE10053671F /* ColorManager.swift in Sources */,
-				6954936A1FC504B00053671F /* RGBAColorExtensionInitialization.swift in Sources */,
 				690D74A31FAF1E6000FF9388 /* UIColorExtensionManager.swift in Sources */,
 				695493631FC4EFE10053671F /* RGBAColor.swift in Sources */,
 				695493661FC4EFE10053671F /* RGBAFormatter.swift in Sources */,
