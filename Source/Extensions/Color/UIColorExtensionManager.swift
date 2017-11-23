@@ -10,10 +10,11 @@ import UIKit
 
 public extension UIColor {
     
+    // MARK: Object variables & properties
+    
     public var pxls: ColorManager {
         get {
-            let rgba = RGBAColor.from(color: self)
-            return ColorManager(rgba: rgba)
+            return ColorManager(color: self)
         }
     }
     
