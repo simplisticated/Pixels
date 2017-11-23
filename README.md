@@ -132,6 +132,16 @@ To see full collection of available brands, just type in Xcode `UIColor.Brands.`
 
 Another way to check available brands is to take a look at the [source code](Source/Extensions/Color/UIColorExtensionBrands.swift).
 
+### HTML Colors
+
+`Pixels` provides a list of [HTML colors](https://www.w3schools.com/colors/colors_names.asp). All of them are available in `UIColor.HTML` namespace:
+
+```swift
+let purple = UIColor.HTML.purple         // #800080
+let orange = UIColor.HTML.orange         // #FFA500
+let lightGreen = UIColor.HTML.lightGreen // #90EE90
+```
+
 ## License
 
 `Pixels` is available under the MIT license. See the [LICENSE](./LICENSE) file for more info.
