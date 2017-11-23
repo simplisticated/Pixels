@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "Pixels"
-  s.version      = "1.2.4"
+  s.version      = "1.3"
   s.summary      = "Colorful programming"
 
   # This description is used to generate tags and improve search results.
