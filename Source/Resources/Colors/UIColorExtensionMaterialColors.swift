@@ -84,33 +84,33 @@ public extension UIColor {
             case .purple:
                 switch level {
                 case ._50:
-                    return UIColor(hexString: "#")
+                    return UIColor(hexString: "#F3E5F5")
                 case ._100:
-                    return UIColor(hexString: "#")
+                    return UIColor(hexString: "#E1BEE7")
                 case ._200:
-                    return UIColor(hexString: "#")
+                    return UIColor(hexString: "#CE93D8")
                 case ._300:
-                    return UIColor(hexString: "#")
+                    return UIColor(hexString: "#BA68C8")
                 case ._400:
-                    return UIColor(hexString: "#")
+                    return UIColor(hexString: "#AB47BC")
                 case ._500:
-                    return UIColor(hexString: "#")
+                    return UIColor(hexString: "#9C27B0")
                 case ._600:
-                    return UIColor(hexString: "#")
+                    return UIColor(hexString: "#8E24AA")
                 case ._700:
-                    return UIColor(hexString: "#")
+                    return UIColor(hexString: "#7B1FA2")
                 case ._800:
-                    return UIColor(hexString: "#")
+                    return UIColor(hexString: "#6A1B9A")
                 case ._900:
-                    return UIColor(hexString: "#")
+                    return UIColor(hexString: "#4A148C")
                 case .a100:
-                    return UIColor(hexString: "#")
+                    return UIColor(hexString: "#EA80FC")
                 case .a200:
-                    return UIColor(hexString: "#")
+                    return UIColor(hexString: "#E040FB")
                 case .a400:
-                    return UIColor(hexString: "#")
+                    return UIColor(hexString: "#D500F9")
                 case .a700:
-                    return UIColor(hexString: "#")
+                    return UIColor(hexString: "#AA00FF")
                 case .default:
                     return UIColor.Material.color(ofType:.purple, level:._500)
                 }
