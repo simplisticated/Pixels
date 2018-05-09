@@ -142,6 +142,16 @@ let orange = UIColor.HTML.orange         // #FFA500
 let lightGreen = UIColor.HTML.lightGreen // #90EE90
 ```
 
+### Google Material Colors
+
+`Pixels` also includes set of material colors that can be used like in example below:
+
+```swift
+let orange = UIColor.Material.Orange._500
+let blue = UIColor.Material.Blue.a200
+// etc.
+```
+
 ## License
 
 `Pixels` is available under the MIT license. See the [LICENSE](./LICENSE) file for more info.
