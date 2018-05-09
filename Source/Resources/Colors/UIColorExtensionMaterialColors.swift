@@ -721,85 +721,85 @@ public extension UIColor {
             
             public static var _50: UIColor {
                 get {
-                    return UIColor(hexString: "#")!
+                    return UIColor(hexString: "#E0F2F1")!
                 }
             }
             
             public static var _100: UIColor {
                 get {
-                    return UIColor(hexString: "#")!
+                    return UIColor(hexString: "#B2DFDB")!
                 }
             }
             
             public static var _200: UIColor {
                 get {
-                    return UIColor(hexString: "#")!
+                    return UIColor(hexString: "#80CBC4")!
                 }
             }
             
             public static var _300: UIColor {
                 get {
-                    return UIColor(hexString: "#")!
+                    return UIColor(hexString: "#4DB6AC")!
                 }
             }
             
             public static var _400: UIColor {
                 get {
-                    return UIColor(hexString: "#")!
+                    return UIColor(hexString: "#26A69A")!
                 }
             }
             
             public static var _500: UIColor {
                 get {
-                    return UIColor(hexString: "#")!
+                    return UIColor(hexString: "#009688")!
                 }
             }
             
             public static var _600: UIColor {
                 get {
-                    return UIColor(hexString: "#")!
+                    return UIColor(hexString: "#00897B")!
                 }
             }
             
             public static var _700: UIColor {
                 get {
-                    return UIColor(hexString: "#")!
+                    return UIColor(hexString: "#00796B")!
                 }
             }
             
             public static var _800: UIColor {
                 get {
-                    return UIColor(hexString: "#")!
+                    return UIColor(hexString: "#00695C")!
                 }
             }
             
             public static var _900: UIColor {
                 get {
-                    return UIColor(hexString: "#")!
+                    return UIColor(hexString: "#004D40")!
                 }
             }
             
             public static var a100: UIColor {
                 get {
-                    return UIColor(hexString: "#")!
+                    return UIColor(hexString: "#A7FFEB")!
                 }
             }
             
             public static var a200: UIColor {
                 get {
-                    return UIColor(hexString: "#")!
+                    return UIColor(hexString: "#64FFDA")!
                 }
             }
             
             public static var a400: UIColor {
                 get {
-                    return UIColor(hexString: "#")!
+                    return UIColor(hexString: "#1DE9B6")!
                 }
             }
             
             public static var a700: UIColor {
                 get {
-                    return UIColor(hexString: "#")!
+                    return UIColor(hexString: "#00BFA5")!
                 }
             }
             
