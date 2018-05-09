@@ -12,154 +12,895 @@ import UIKit
 public extension UIColor {
     
     public struct HTML {
-        public static let aliceBlue = UIColor(hexString: "#F0F8FF")!
-        public static let antiqueWhite = UIColor(hexString: "#FAEBD7")!
-        public static let aqua = UIColor(hexString: "#00FFFF")!
-        public static let aquamarine = UIColor(hexString: "#7FFFD4")!
-        public static let azure = UIColor(hexString: "#F0FFFF")!
-        public static let beige = UIColor(hexString: "#F5F5DC")!
-        public static let bisque = UIColor(hexString: "#FFE4C4")!
-        public static let black = UIColor(hexString: "#000000")!
-        public static let blanchedAlmond = UIColor(hexString: "#FFEBCD")!
-        public static let blue = UIColor(hexString: "#0000FF")!
-        public static let blueViolet = UIColor(hexString: "#8A2BE2")!
-        public static let brown = UIColor(hexString: "#A52A2A")!
-        public static let burlyWood = UIColor(hexString: "#DEB887")!
-        public static let cadetBlue = UIColor(hexString: "#5F9EA0")!
-        public static let chartreuse = UIColor(hexString: "#7FFF00")!
-        public static let chocolate = UIColor(hexString: "#D2691E")!
-        public static let coral = UIColor(hexString: "#FF7F50")!
-        public static let cornflowerBlue = UIColor(hexString: "#6495ED")!
-        public static let cornsilk = UIColor(hexString: "#FFF8DC")!
-        public static let crimson = UIColor(hexString: "#DC143C")!
-        public static let cyan = UIColor(hexString: "#00FFFF")!
-        public static let darkBlue = UIColor(hexString: "#00008B")!
-        public static let darkCyan = UIColor(hexString: "#008B8B")!
-        public static let darkGoldenRod = UIColor(hexString: "#B8860B")!
-        public static let darkGray = UIColor(hexString: "#A9A9A9")!
-        public static let darkGrey = UIColor(hexString: "#A9A9A9")!
-        public static let darkGreen = UIColor(hexString: "#006400")!
-        public static let darkKhaki = UIColor(hexString: "#BDB76B")!
-        public static let darkMagenta = UIColor(hexString: "#8B008B")!
-        public static let darkOliveGreen = UIColor(hexString: "#556B2F")!
-        public static let darkOrange = UIColor(hexString: "#FF8C00")!
-        public static let darkOrchid = UIColor(hexString: "#9932CC")!
-        public static let darkRed = UIColor(hexString: "#8B0000")!
-        public static let darkSalmon = UIColor(hexString: "#E9967A")!
-        public static let darkSeaGreen = UIColor(hexString: "#8FBC8F")!
-        public static let darkSlateBlue = UIColor(hexString: "#483D8B")!
-        public static let darkSlateGray = UIColor(hexString: "#2F4F4F")!
-        public static let darkSlateGrey = UIColor(hexString: "#2F4F4F")!
-        public static let darkTurquoise = UIColor(hexString: "#00CED1")!
-        public static let darkViolet = UIColor(hexString: "#9400D3")!
-        public static let deepPink = UIColor(hexString: "#FF1493")!
-        public static let deepSkyBlue = UIColor(hexString: "#00BFFF")!
-        public static let dimGray = UIColor(hexString: "#696969")!
-        public static let dimGrey = UIColor(hexString: "#696969")!
-        public static let dodgerBlue = UIColor(hexString: "#1E90FF")!
-        public static let fireBrick = UIColor(hexString: "#B22222")!
-        public static let floralWhite = UIColor(hexString: "#FFFAF0")!
-        public static let forestGreen = UIColor(hexString: "#228B22")!
-        public static let fuchsia = UIColor(hexString: "#FF00FF")!
-        public static let gainsboro = UIColor(hexString: "#DCDCDC")!
-        public static let ghostWhite = UIColor(hexString: "#F8F8FF")!
-        public static let gold = UIColor(hexString: "#FFD700")!
-        public static let goldenRod = UIColor(hexString: "#DAA520")!
-        public static let gray = UIColor(hexString: "#808080")!
-        public static let grey = UIColor(hexString: "#808080")!
-        public static let green = UIColor(hexString: "#008000")!
-        public static let greenYellow = UIColor(hexString: "#ADFF2F")!
-        public static let honeyDew = UIColor(hexString: "#F0FFF0")!
-        public static let hotPink = UIColor(hexString: "#FF69B4")!
-        public static let indianRed = UIColor(hexString: " #CD5C5C")!
-        public static let indigo = UIColor(hexString: " #4B0082")!
-        public static let ivory = UIColor(hexString: "#FFFFF0")!
-        public static let khaki = UIColor(hexString: "#F0E68C")!
-        public static let lavender = UIColor(hexString: "#E6E6FA")!
-        public static let lavenderBlush = UIColor(hexString: "#FFF0F5")!
-        public static let lawnGreen = UIColor(hexString: "#7CFC00")!
-        public static let lemonChiffon = UIColor(hexString: "#FFFACD")!
-        public static let lightBlue = UIColor(hexString: "#ADD8E6")!
-        public static let lightCoral = UIColor(hexString: "#F08080")!
-        public static let lightCyan = UIColor(hexString: "#E0FFFF")!
-        public static let lightGoldenRodYellow = UIColor(hexString: "#FAFAD2")!
-        public static let lightGray = UIColor(hexString: "#D3D3D3")!
-        public static let lightGrey = UIColor(hexString: "#D3D3D3")!
-        public static let lightGreen = UIColor(hexString: "#90EE90")!
-        public static let lightPink = UIColor(hexString: "#FFB6C1")!
-        public static let lightSalmon = UIColor(hexString: "#FFA07A")!
-        public static let lightSeaGreen = UIColor(hexString: "#20B2AA")!
-        public static let lightSkyBlue = UIColor(hexString: "#87CEFA")!
-        public static let lightSlateGray = UIColor(hexString: "#778899")!
-        public static let lightSlateGrey = UIColor(hexString: "#778899")!
-        public static let lightSteelBlue = UIColor(hexString: "#B0C4DE")!
-        public static let lightYellow = UIColor(hexString: "#FFFFE0")!
-        public static let lime = UIColor(hexString: "#00FF00")!
-        public static let limeGreen = UIColor(hexString: "#32CD32")!
-        public static let linen = UIColor(hexString: "#FAF0E6")!
-        public static let magenta = UIColor(hexString: "#FF00FF")!
-        public static let maroon = UIColor(hexString: "#800000")!
-        public static let mediumAquaMarine = UIColor(hexString: "#66CDAA")!
-        public static let mediumBlue = UIColor(hexString: "#0000CD")!
-        public static let mediumOrchid = UIColor(hexString: "#BA55D3")!
-        public static let mediumPurple = UIColor(hexString: "#9370DB")!
-        public static let mediumSeaGreen = UIColor(hexString: "#3CB371")!
-        public static let mediumSlateBlue = UIColor(hexString: "#7B68EE")!
-        public static let mediumSpringGreen = UIColor(hexString: "#00FA9A")!
-        public static let mediumTurquoise = UIColor(hexString: "#48D1CC")!
-        public static let mediumVioletRed = UIColor(hexString: "#C71585")!
-        public static let midnightBlue = UIColor(hexString: "#191970")!
-        public static let mintCream = UIColor(hexString: "#F5FFFA")!
-        public static let mistyRose = UIColor(hexString: "#FFE4E1")!
-        public static let moccasin = UIColor(hexString: "#FFE4B5")!
-        public static let navajoWhite = UIColor(hexString: "#FFDEAD")!
-        public static let navy = UIColor(hexString: "#000080")!
-        public static let oldLace = UIColor(hexString: "#FDF5E6")!
-        public static let olive = UIColor(hexString: "#808000")!
-        public static let oliveDrab = UIColor(hexString: "#6B8E23")!
-        public static let orange = UIColor(hexString: "#FFA500")!
-        public static let orangeRed = UIColor(hexString: "#FF4500")!
-        public static let orchid = UIColor(hexString: "#DA70D6")!
-        public static let paleGoldenRod = UIColor(hexString: "#EEE8AA")!
-        public static let paleGreen = UIColor(hexString: "#98FB98")!
-        public static let paleTurquoise = UIColor(hexString: "#AFEEEE")!
-        public static let paleVioletRed = UIColor(hexString: "#DB7093")!
-        public static let papayaWhip = UIColor(hexString: "#FFEFD5")!
-        public static let peachPuff = UIColor(hexString: "#FFDAB9")!
-        public static let peru = UIColor(hexString: "#CD853F")!
-        public static let pink = UIColor(hexString: "#FFC0CB")!
-        public static let plum = UIColor(hexString: "#DDA0DD")!
-        public static let powderBlue = UIColor(hexString: "#B0E0E6")!
-        public static let purple = UIColor(hexString: "#800080")!
-        public static let rebeccaPurple = UIColor(hexString: "#663399")!
-        public static let red = UIColor(hexString: "#FF0000")!
-        public static let rosyBrown = UIColor(hexString: "#BC8F8F")!
-        public static let royalBlue = UIColor(hexString: "#4169E1")!
-        public static let saddleBrown = UIColor(hexString: "#8B4513")!
-        public static let salmon = UIColor(hexString: "#FA8072")!
-        public static let sandyBrown = UIColor(hexString: "#F4A460")!
-        public static let seaGreen = UIColor(hexString: "#2E8B57")!
-        public static let seaShell = UIColor(hexString: "#FFF5EE")!
-        public static let sienna = UIColor(hexString: "#A0522D")!
-        public static let silver = UIColor(hexString: "#C0C0C0")!
-        public static let skyBlue = UIColor(hexString: "#87CEEB")!
-        public static let slateBlue = UIColor(hexString: "#6A5ACD")!
-        public static let slateGray = UIColor(hexString: "#708090")!
-        public static let slateGrey = UIColor(hexString: "#708090")!
-        public static let snow = UIColor(hexString: "#FFFAFA")!
-        public static let springGreen = UIColor(hexString: "#00FF7F")!
-        public static let steelBlue = UIColor(hexString: "#4682B4")!
-        public static let tan = UIColor(hexString: "#D2B48C")!
-        public static let teal = UIColor(hexString: "#008080")!
-        public static let thistle = UIColor(hexString: "#D8BFD8")!
-        public static let tomato = UIColor(hexString: "#FF6347")!
-        public static let turquoise = UIColor(hexString: "#40E0D0")!
-        public static let violet = UIColor(hexString: "#EE82EE")!
-        public static let wheat = UIColor(hexString: "#F5DEB3")!
-        public static let white = UIColor(hexString: "#FFFFFF")!
-        public static let whiteSmoke = UIColor(hexString: "#F5F5F5")!
-        public static let yellow = UIColor(hexString: "#FFFF00")!
-        public static let yellowGreen = UIColor(hexString: "#9ACD32")!
+        
+        public static var aliceBlue: UIColor {
+            get {
+                return UIColor(hexString: "#F0F8FF")!
+            }
+        }
+        
+        public static var antiqueWhite: UIColor {
+            get {
+                return UIColor(hexString: "#FAEBD7")!
+            }
+        }
+        
+        public static var aqua: UIColor {
+            get {
+                return UIColor(hexString: "#00FFFF")!
+            }
+        }
+
+        public static var aquamarine: UIColor {
+            get {
+                return UIColor(hexString: "#7FFFD4")!
+            }
+        }
+
+        public static var azure: UIColor {
+            get {
+                return UIColor(hexString: "#F0FFFF")!
+            }
+        }
+
+        public static var beige: UIColor {
+            get {
+                return UIColor(hexString: "#F5F5DC")!
+            }
+        }
+
+        public static var bisque: UIColor {
+            get {
+                return UIColor(hexString: "#FFE4C4")!
+            }
+        }
+
+        public static var black: UIColor {
+            get {
+                return UIColor(hexString: "#000000")!
+            }
+        }
+
+        public static var blanchedAlmond: UIColor {
+            get {
+                return UIColor(hexString: "#FFEBCD")!
+            }
+        }
+
+        public static var blue: UIColor {
+            get {
+                return UIColor(hexString: "#0000FF")!
+            }
+        }
+
+        public static var blueViolet: UIColor {
+            get {
+                return UIColor(hexString: "#8A2BE2")!
+            }
+        }
+
+        public static var brown: UIColor {
+            get {
+                return UIColor(hexString: "#A52A2A")!
+            }
+        }
+
+        public static var burlyWood: UIColor {
+            get {
+                return UIColor(hexString: "#DEB887")!
+            }
+        }
+
+        public static var cadetBlue: UIColor {
+            get {
+                return UIColor(hexString: "#5F9EA0")!
+            }
+        }
+
+        public static var chartreuse: UIColor {
+            get {
+                return UIColor(hexString: "#7FFF00")!
+            }
+        }
+
+        public static var chocolate: UIColor {
+            get {
+                return UIColor(hexString: "#D2691E")!
+            }
+        }
+
+        public static var coral: UIColor {
+            get {
+                return UIColor(hexString: "#FF7F50")!
+            }
+        }
+
+        public static var cornflowerBlue: UIColor {
+            get {
+                return UIColor(hexString: "#6495ED")!
+            }
+        }
+
+        public static var cornsilk: UIColor {
+            get {
+                return UIColor(hexString: "#FFF8DC")!
+            }
+        }
+
+        public static var crimson: UIColor {
+            get {
+                return UIColor(hexString: "#DC143C")!
+            }
+        }
+
+        public static var cyan: UIColor {
+            get {
+                return UIColor(hexString: "#00FFFF")!
+            }
+        }
+
+        public static var darkBlue: UIColor {
+            get {
+                return UIColor(hexString: "#00008B")!
+            }
+        }
+
+        public static var darkCyan: UIColor {
+            get {
+                return UIColor(hexString: "#008B8B")!
+            }
+        }
+
+        public static var darkGoldenRod: UIColor {
+            get {
+                return UIColor(hexString: "#B8860B")!
+            }
+        }
+
+        public static var darkGray: UIColor {
+            get {
+                return UIColor(hexString: "#A9A9A9")!
+            }
+        }
+
+        public static var darkGrey: UIColor {
+            get {
+                return UIColor(hexString: "#A9A9A9")!
+            }
+        }
+
+        public static var darkGreen: UIColor {
+            get {
+                return UIColor(hexString: "#006400")!
+            }
+        }
+
+        public static var darkKhaki: UIColor {
+            get {
+                return UIColor(hexString: "#BDB76B")!
+            }
+        }
+
+        public static var darkMagenta: UIColor {
+            get {
+                return UIColor(hexString: "#8B008B")!
+            }
+        }
+
+        public static var darkOliveGreen: UIColor {
+            get {
+                return UIColor(hexString: "#556B2F")!
+            }
+        }
+
+        public static var darkOrange: UIColor {
+            get {
+                return UIColor(hexString: "#FF8C00")!
+            }
+        }
+
+        public static var darkOrchid: UIColor {
+            get {
+                return UIColor(hexString: "#9932CC")!
+            }
+        }
+
+        public static var darkRed: UIColor {
+            get {
+                return UIColor(hexString: "#8B0000")!
+            }
+        }
+
+        public static var darkSalmon: UIColor {
+            get {
+                return UIColor(hexString: "#E9967A")!
+            }
+        }
+
+        public static var darkSeaGreen: UIColor {
+            get {
+                return UIColor(hexString: "#8FBC8F")!
+            }
+        }
+
+        public static var darkSlateBlue: UIColor {
+            get {
+                return UIColor(hexString: "#483D8B")!
+            }
+        }
+
+        public static var darkSlateGray: UIColor {
+            get {
+                return UIColor(hexString: "#2F4F4F")!
+            }
+        }
+
+        public static var darkSlateGrey: UIColor {
+            get {
+                return UIColor(hexString: "#2F4F4F")!
+            }
+        }
+
+        public static var darkTurquoise: UIColor {
+            get {
+                return UIColor(hexString: "#00CED1")!
+            }
+        }
+
+        public static var darkViolet: UIColor {
+            get {
+                return UIColor(hexString: "#9400D3")!
+            }
+        }
+
+        public static var deepPink: UIColor {
+            get {
+                return UIColor(hexString: "#FF1493")!
+            }
+        }
+
+        public static var deepSkyBlue: UIColor {
+            get {
+                return UIColor(hexString: "#00BFFF")!
+            }
+        }
+
+        public static var dimGray: UIColor {
+            get {
+                return UIColor(hexString: "#696969")!
+            }
+        }
+
+        public static var dimGrey: UIColor {
+            get {
+                return UIColor(hexString: "#696969")!
+            }
+        }
+
+        public static var dodgerBlue: UIColor {
+            get {
+                return UIColor(hexString: "#1E90FF")!
+            }
+        }
+
+        public static var fireBrick: UIColor {
+            get {
+                return UIColor(hexString: "#B22222")!
+            }
+        }
+
+        public static var floralWhite: UIColor {
+            get {
+                return UIColor(hexString: "#FFFAF0")!
+            }
+        }
+
+        public static var forestGreen: UIColor {
+            get {
+                return UIColor(hexString: "#228B22")!
+            }
+        }
+
+        public static var fuchsia: UIColor {
+            get {
+                return UIColor(hexString: "#FF00FF")!
+            }
+        }
+
+        public static var gainsboro: UIColor {
+            get {
+                return UIColor(hexString: "#DCDCDC")!
+            }
+        }
+
+        public static var ghostWhite: UIColor {
+            get {
+                return UIColor(hexString: "#F8F8FF")!
+            }
+        }
+
+        public static var gold: UIColor {
+            get {
+                return UIColor(hexString: "#FFD700")!
+            }
+        }
+
+        public static var goldenRod: UIColor {
+            get {
+                return UIColor(hexString: "#DAA520")!
+            }
+        }
+
+        public static var gray: UIColor {
+            get {
+                return UIColor(hexString: "#808080")!
+            }
+        }
+
+        public static var grey: UIColor {
+            get {
+                return UIColor(hexString: "#808080")!
+            }
+        }
+
+        public static var green: UIColor {
+            get {
+                return UIColor(hexString: "#008000")!
+            }
+        }
+
+        public static var greenYellow: UIColor {
+            get {
+                return UIColor(hexString: "#ADFF2F")!
+            }
+        }
+
+        public static var honeyDew: UIColor {
+            get {
+                return UIColor(hexString: "#F0FFF0")!
+            }
+        }
+
+        public static var hotPink: UIColor {
+            get {
+                return UIColor(hexString: "#FF69B4")!
+            }
+        }
+
+        public static var indianRed: UIColor {
+            get {
+                return UIColor(hexString: " #CD5C5C")!
+            }
+        }
+
+        public static var indigo: UIColor {
+            get {
+                return UIColor(hexString: " #4B0082")!
+            }
+        }
+
+        public static var ivory: UIColor {
+            get {
+                return UIColor(hexString: "#FFFFF0")!
+            }
+        }
+
+        public static var khaki: UIColor {
+            get {
+                return UIColor(hexString: "#F0E68C")!
+            }
+        }
+
+        public static var lavender: UIColor {
+            get {
+                return UIColor(hexString: "#E6E6FA")!
+            }
+        }
+
+        public static var lavenderBlush: UIColor {
+            get {
+                return UIColor(hexString: "#FFF0F5")!
+            }
+        }
+
+        public static var lawnGreen: UIColor {
+            get {
+                return UIColor(hexString: "#7CFC00")!
+            }
+        }
+
+        public static var lemonChiffon: UIColor {
+            get {
+                return UIColor(hexString: "#FFFACD")!
+            }
+        }
+
+        public static var lightBlue: UIColor {
+            get {
+                return UIColor(hexString: "#ADD8E6")!
+            }
+        }
+
+        public static var lightCoral: UIColor {
+            get {
+                return UIColor(hexString: "#F08080")!
+            }
+        }
+
+        public static var lightCyan: UIColor {
+            get {
+                return UIColor(hexString: "#E0FFFF")!
+            }
+        }
+
+        public static var lightGoldenRodYellow: UIColor {
+            get {
+                return UIColor(hexString: "#FAFAD2")!
+            }
+        }
+
+        public static var lightGray: UIColor {
+            get {
+                return UIColor(hexString: "#D3D3D3")!
+            }
+        }
+
+        public static var lightGrey: UIColor {
+            get {
+                return UIColor(hexString: "#D3D3D3")!
+            }
+        }
+
+        public static var lightGreen: UIColor {
+            get {
+                return UIColor(hexString: "#90EE90")!
+            }
+        }
+
+        public static var lightPink: UIColor {
+            get {
+                return UIColor(hexString: "#FFB6C1")!
+            }
+        }
+
+        public static var lightSalmon: UIColor {
+            get {
+                return UIColor(hexString: "#FFA07A")!
+            }
+        }
+
+        public static var lightSeaGreen: UIColor {
+            get {
+                return UIColor(hexString: "#20B2AA")!
+            }
+        }
+
+        public static var lightSkyBlue: UIColor {
+            get {
+                return UIColor(hexString: "#87CEFA")!
+            }
+        }
+
+        public static var lightSlateGray: UIColor {
+            get {
+                return UIColor(hexString: "#778899")!
+            }
+        }
+
+        public static var lightSlateGrey: UIColor {
+            get {
+                return UIColor(hexString: "#778899")!
+            }
+        }
+
+        public static var lightSteelBlue: UIColor {
+            get {
+                return UIColor(hexString: "#B0C4DE")!
+            }
+        }
+
+        public static var lightYellow: UIColor {
+            get {
+                return UIColor(hexString: "#FFFFE0")!
+            }
+        }
+
+        public static var lime: UIColor {
+            get {
+                return UIColor(hexString: "#00FF00")!
+            }
+        }
+
+        public static var limeGreen: UIColor {
+            get {
+                return UIColor(hexString: "#32CD32")!
+            }
+        }
+
+        public static var linen: UIColor {
+            get {
+                return UIColor(hexString: "#FAF0E6")!
+            }
+        }
+
+        public static var magenta: UIColor {
+            get {
+                return UIColor(hexString: "#FF00FF")!
+            }
+        }
+
+        public static var maroon: UIColor {
+            get {
+                return UIColor(hexString: "#800000")!
+            }
+        }
+
+        public static var mediumAquaMarine: UIColor {
+            get {
+                return UIColor(hexString: "#66CDAA")!
+            }
+        }
+
+        public static var mediumBlue: UIColor {
+            get {
+                return UIColor(hexString: "#0000CD")!
+            }
+        }
+
+        public static var mediumOrchid: UIColor {
+            get {
+                return UIColor(hexString: "#BA55D3")!
+            }
+        }
+
+        public static var mediumPurple: UIColor {
+            get {
+                return UIColor(hexString: "#9370DB")!
+            }
+        }
+
+        public static var mediumSeaGreen: UIColor {
+            get {
+                return UIColor(hexString: "#3CB371")!
+            }
+        }
+
+        public static var mediumSlateBlue: UIColor {
+            get {
+                return UIColor(hexString: "#7B68EE")!
+            }
+        }
+
+        public static var mediumSpringGreen: UIColor {
+            get {
+                return UIColor(hexString: "#00FA9A")!
+            }
+        }
+
+        public static var mediumTurquoise: UIColor {
+            get {
+                return UIColor(hexString: "#48D1CC")!
+            }
+        }
+
+        public static var mediumVioletRed: UIColor {
+            get {
+                return UIColor(hexString: "#C71585")!
+            }
+        }
+
+        public static var midnightBlue: UIColor {
+            get {
+                return UIColor(hexString: "#191970")!
+            }
+        }
+
+        public static var mintCream: UIColor {
+            get {
+                return UIColor(hexString: "#F5FFFA")!
+            }
+        }
+
+        public static var mistyRose: UIColor {
+            get {
+                return UIColor(hexString: "#FFE4E1")!
+            }
+        }
+
+        public static var moccasin: UIColor {
+            get {
+                return UIColor(hexString: "#FFE4B5")!
+            }
+        }
+
+        public static var navajoWhite: UIColor {
+            get {
+                return UIColor(hexString: "#FFDEAD")!
+            }
+        }
+
+        public static var navy: UIColor {
+            get {
+                return UIColor(hexString: "#000080")!
+            }
+        }
+
+        public static var oldLace: UIColor {
+            get {
+                return UIColor(hexString: "#FDF5E6")!
+            }
+        }
+
+        public static var olive: UIColor {
+            get {
+                return UIColor(hexString: "#808000")!
+            }
+        }
+
+        public static var oliveDrab: UIColor {
+            get {
+                return UIColor(hexString: "#6B8E23")!
+            }
+        }
+
+        public static var orange: UIColor {
+            get {
+                return UIColor(hexString: "#FFA500")!
+            }
+        }
+
+        public static var orangeRed: UIColor {
+            get {
+                return UIColor(hexString: "#FF4500")!
+            }
+        }
+
+        public static var orchid: UIColor {
+            get {
+                return UIColor(hexString: "#DA70D6")!
+            }
+        }
+
+        public static var paleGoldenRod: UIColor {
+            get {
+                return UIColor(hexString: "#EEE8AA")!
+            }
+        }
+
+        public static var paleGreen: UIColor {
+            get {
+                return UIColor(hexString: "#98FB98")!
+            }
+        }
+
+        public static var paleTurquoise: UIColor {
+            get {
+                return UIColor(hexString: "#AFEEEE")!
+            }
+        }
+
+        public static var paleVioletRed: UIColor {
+            get {
+                return UIColor(hexString: "#DB7093")!
+            }
+        }
+
+        public static var papayaWhip: UIColor {
+            get {
+                return UIColor(hexString: "#FFEFD5")!
+            }
+        }
+
+        public static var peachPuff: UIColor {
+            get {
+                return UIColor(hexString: "#FFDAB9")!
+            }
+        }
+
+        public static var peru: UIColor {
+            get {
+                return UIColor(hexString: "#CD853F")!
+            }
+        }
+
+        public static var pink: UIColor {
+            get {
+                return UIColor(hexString: "#FFC0CB")!
+            }
+        }
+
+        public static var plum: UIColor {
+            get {
+                return UIColor(hexString: "#DDA0DD")!
+            }
+        }
+
+        public static var powderBlue: UIColor {
+            get {
+                return UIColor(hexString: "#B0E0E6")!
+            }
+        }
+
+        public static var purple: UIColor {
+            get {
+                return UIColor(hexString: "#800080")!
+            }
+        }
+
+        public static var rebeccaPurple: UIColor {
+            get {
+                return UIColor(hexString: "#663399")!
+            }
+        }
+
+        public static var red: UIColor {
+            get {
+                return UIColor(hexString: "#FF0000")!
+            }
+        }
+
+        public static var rosyBrown: UIColor {
+            get {
+                return UIColor(hexString: "#BC8F8F")!
+            }
+        }
+
+        public static var royalBlue: UIColor {
+            get {
+                return UIColor(hexString: "#4169E1")!
+            }
+        }
+
+        public static var saddleBrown: UIColor {
+            get {
+                return UIColor(hexString: "#8B4513")!
+            }
+        }
+
+        public static var salmon: UIColor {
+            get {
+                return UIColor(hexString: "#FA8072")!
+            }
+        }
+
+        public static var sandyBrown: UIColor {
+            get {
+                return UIColor(hexString: "#F4A460")!
+            }
+        }
+
+        public static var seaGreen: UIColor {
+            get {
+                return UIColor(hexString: "#2E8B57")!
+            }
+        }
+
+        public static var seaShell: UIColor {
+            get {
+                return UIColor(hexString: "#FFF5EE")!
+            }
+        }
+
+        public static var sienna: UIColor {
+            get {
+                return UIColor(hexString: "#A0522D")!
+            }
+        }
+
+        public static var silver: UIColor {
+            get {
+                return UIColor(hexString: "#C0C0C0")!
+            }
+        }
+
+        public static var skyBlue: UIColor {
+            get {
+                return UIColor(hexString: "#87CEEB")!
+            }
+        }
+
+        public static var slateBlue: UIColor {
+            get {
+                return UIColor(hexString: "#6A5ACD")!
+            }
+        }
+
+        public static var slateGray: UIColor {
+            get {
+                return UIColor(hexString: "#708090")!
+            }
+        }
+
+        public static var slateGrey: UIColor {
+            get {
+                return UIColor(hexString: "#708090")!
+            }
+        }
+
+        public static var snow: UIColor {
+            get {
+                return UIColor(hexString: "#FFFAFA")!
+            }
+        }
+
+        public static var springGreen: UIColor {
+            get {
+                return UIColor(hexString: "#00FF7F")!
+            }
+        }
+
+        public static var steelBlue: UIColor {
+            get {
+                return UIColor(hexString: "#4682B4")!
+            }
+        }
+
+        public static var tan: UIColor {
+            get {
+                return UIColor(hexString: "#D2B48C")!
+            }
+        }
+
+        public static var teal: UIColor {
+            get {
+                return UIColor(hexString: "#008080")!
+            }
+        }
+
+        public static var thistle: UIColor {
+            get {
+                return UIColor(hexString: "#D8BFD8")!
+            }
+        }
+
+        public static var tomato: UIColor {
+            get {
+                return UIColor(hexString: "#FF6347")!
+            }
+        }
+
+        public static var turquoise: UIColor {
+            get {
+                return UIColor(hexString: "#40E0D0")!
+            }
+        }
+
+        public static var violet: UIColor {
+            get {
+                return UIColor(hexString: "#EE82EE")!
+            }
+        }
+
+        public static var wheat: UIColor {
+            get {
+                return UIColor(hexString: "#F5DEB3")!
+            }
+        }
+
+        public static var white: UIColor {
+            get {
+                return UIColor(hexString: "#FFFFFF")!
+            }
+        }
+
+        public static var whiteSmoke: UIColor {
+            get {
+                return UIColor(hexString: "#F5F5F5")!
+            }
+        }
+
+        public static var yellow: UIColor {
+            get {
+                return UIColor(hexString: "#FFFF00")!
+            }
+        }
+
+        public static var yellowGreen: UIColor {
+            get {
+                return UIColor(hexString: "#9ACD32")!
+            }
+        }
+        
     }
     
 }
